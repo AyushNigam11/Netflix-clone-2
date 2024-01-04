@@ -1,72 +1,96 @@
-# Getting Started with Create React App
+<div align='center'>
+<h1>Updated Repo</h1>
+  <h4>add random video of your choice in assets folder under video.mp4 name then run the code</h4>
+<h1>Streamify - MERN Stack Netflix Clone</h1>
+<p>Welcome to Streamify, a full-stack web application built with the MERN stack (MongoDB, Express.js, React, Node.js). This project aims to recreate the popular streaming service Netflix, providing users with a seamless and responsive streaming experience. Features User Authentication: Secure user registration and authentication system to personalize the streaming experience. Dynamic Content: Fetch and display a wide range of movies and TV shows dynamically from a MongoDB database. Search and Filter: Easily find your favorite content using the search and filter functionalities. User Profiles: Customize your profile, keep track of your watch history, and save favorites for later. Responsive Design: Enjoy a seamless streaming experience on various devices with a responsive and user-friendly design. Technologies Used MongoDB: NoSQL database for efficient and scalable data storage. Express.js: Backend framework to handle server-side logic and API endpoints. React: Frontend library for building dynamic and interactive user interfaces. Node.js: Server-side runtime environment to run the application. Bootstrap: Frontend styling for a clean and modern UI.</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h4> <span> · </span> <a href="https://github.com/ayushnigam11/Streamify/blob/master/README.md"> Documentation </a> <span> · </span> <a href="https://github.com/ayushnigam11/Streamify/issues"> Report Bug </a> <span> · </span> <a href="https://github.com/ayushnigam11/Streamify/issues"> Request Feature </a> </h4>
 
-## Available Scripts
 
-In the project directory, you can run:
+</div>
 
-### `npm start`
+# :notebook_with_decorative_cover: Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [About the Project](#star2-about-the-project)
+- [License](#warning-license)
+- [Contact](#handshake-contact)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## :star2: About the Project
+### :space_invader: Tech Stack
+<details> <summary>Client</summary> <ul>
+<li><a href="">React JS</a></li>
+</ul> </details>
+<details> <summary>Server</summary> <ul>
+<li><a href="">Node JS</a></li>
+</ul> </details>
+<details> <summary>Database</summary> <ul>
+<li><a href="">FireBase</a></li>
+</ul> </details>
+<details> <summary>DevOps</summary> <ul>
+<li><a href="">AWS</a></li>
+</ul> </details>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### :dart: Features
+- User Authentication
+- Dynamic Content
+- User Profiles
+- Responsive Design
+- Recommendation Engine
+- Watchlist and Favorite
+- Search Autocomplete and Suggestions
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### :art: Color Reference
+| Color | Hex |
+| --------------- | ---------------------------------------------------------------- |
+| Primary Color | ![#758bab](https://via.placeholder.com/10/758bab?text=+) #758bab |
+| Secondary Color | ![#393E46](https://via.placeholder.com/10/393E46?text=+) #393E46 |
+| Accent Color | ![#00ADB5](https://via.placeholder.com/10/00ADB5?text=+) #00ADB5 |
+| Text Color | ![#EEEEEE](https://via.placeholder.com/10/EEEEEE?text=+) #EEEEEE |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### :key: Environment Variables
+To run this project, you will need to add the following environment variables to your .env file
+`TMDB Api`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+`Mongo URL`
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## :toolbox: Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### :bangbang: Prerequisites
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Clone the repository.
+```bash
+git clone https://github.com/your-username/streamify.git cd streamify
+```
+- Install dependencies for the frontend and backend.
+```bash
+CD client , npm install
+```
+- Set up your MongoDB database and update the configuration
+```bash
+backend/config/config.js
+```
+- Run the application.
+```bash
+npm start
+```
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### :test_tube: Running Tests
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Test
+```bash
+npm run build
+```
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## :warning: License
 
-### Analyzing the Bundle Size
+Distributed under the no License. See LICENSE.txt for more information.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## :handshake: Contact
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Netflix-clone-2
-# Netflix-clone-2
+Ayush Nigam - [@twitter_handle](ayush__nigam) - ayushnigam1105@gmail.com
